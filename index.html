@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sound Player</title>
+</head>
+<body style="text-align:center; margin-top:100px; font-family:sans-serif;">
+
+    <h2>Click to Play Sound</h2>
+
+    <button onclick="playSound()" style="padding:10px 20px; font-size:18px;">
+        ▶ Play
+    </button>
+
+    <audio id="myAudio" src="finntastico-among-us-sound-157106.mp3"></audio>
+
+    <script>
+        function playSound() {
+            document.getElementById("myAudio").play();
+        }
+    </script>
+
+</body>
+</html>
